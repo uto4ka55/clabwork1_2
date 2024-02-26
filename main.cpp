@@ -41,7 +41,7 @@ int main(){
         if (t1>0 and t2>0) { cout << "Рівняння має 4 розв'язки. "  << endl;}
         else if((t1>0 and t2==0)||(t2>0 and t1==0)){ cout << "Рівняння має 3 розв'язки. "  << endl;}
         else if((t1>0 and t2<0) || (t2>0 and t1 < 0)){ cout << "Рівняння має 2 розв'язки. "  << endl;}
-        else if((t1==0 and t2 <0)||(t2==0 and t1<0 )){cout << "Рівняння має 2 розв'язки. "  << endl;}
+        else if((t1==0 and t2 <0)||(t2==0 and t1<0 )){cout << "Рівняння має 1 розв'язок. "  << endl;}
     } else if (discriminant == 0) {
         double t = -b / (2 * a);
         //cout << "t = " << t << endl;
